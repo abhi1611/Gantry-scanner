@@ -6,3 +6,14 @@ For createting the gimbal based setup we have design and implemented the multipl
 
 Process:
 To execute the code for testing first we acqurire the ultrasound images using gimbal basaed gantry. Then train these images to predict the optimal tumor location and probability of disease using deep learning model. Then we integrate the model in out setup to predict the tumor location based on our algorithm.
+
+This project requires the following dependencies to be installed before running the code.
+
+## Prerequisites
+
+Ensure you have Python installed. You can check your Python version with:
+python --version
+To install the required dependencies, run:
+pip install -r requirements.txt
+
+
