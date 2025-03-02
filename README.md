@@ -22,27 +22,35 @@ pip install -r requirements.txt
 ## Workflow Overview
 Follow these steps to execute the full pipeline:
 
-1. Data Preparation
+1. Data Preparation:
+
 Run the train_val_split_h02.py script to split the dataset into training and validation sets.
 python train_val_split_h02.py
-2. Model Training
+
+2. Model Training:
 Train the deep learning model using the train.py script.
+
 python train.py
+
 This script will:
 
 Load the dataset.
 Train the model.
 Save the trained model for further use.
 
-3. Gantry Integration & Tissue Localization
+
+3. Gantry Integration & Tissue Localization:
+
 Once the model is trained, integrate it with the automated ultrasound gantry by running localization3.py.
 python localization3.py
+
 This script will:
 
 Load the trained model.
 Execute localization to determine the optimal tissue slice.
 Control the angular ultrasound gantry by integrating both the Python-based and Arduino-based implementations.
 
-Additional Notes
+Additional Notes:
+
 Ensure that the Arduino is properly connected before running localization03.py.
 The trained model should be available in the specified directory before executing the localization script.
