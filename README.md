@@ -12,8 +12,11 @@ This project requires the following dependencies to be installed before running 
 ## Prerequisites
 
 Ensure you have Python installed. You can check your Python version with:
+
 python --version
+
 To install the required dependencies, run:
+
 pip install -r requirements.txt
 
 
