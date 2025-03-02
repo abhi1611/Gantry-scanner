@@ -54,3 +54,4 @@ Additional Notes:
 
 Ensure that the Arduino is properly connected before running localization03.py.
 The trained model should be available in the specified directory before executing the localization script.
+
